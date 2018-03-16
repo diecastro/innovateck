@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore built JS and CSS
+dist/bundle.js
+dist/bundle.css
+dist/manifest.js
+dist/vendor.js
+dist/bundle.js.map
+dist/bundle.css.map
+dist/manifest.js.map
+dist/vendor.js.map
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Dependency directory
+node_modules
+
+manifest.json
+.env
